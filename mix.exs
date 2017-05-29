@@ -37,6 +37,7 @@ defmodule Monolith.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:rustler, github: "hansihe/rustler", sparse: "rustler_mix", branch: "master"}]
+    #[{:rustler, github: "hansihe/rustler", sparse: "rustler_mix", branch: "master"}]
+    [{:rustler, path: "../../../my_repos/rustler/rustler_mix"}]
   end
 end

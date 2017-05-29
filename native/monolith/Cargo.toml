@@ -9,6 +9,8 @@ path = "src/lib.rs"
 crate-type = ["dylib"]
 
 [dependencies]
-rustler = "0.14.0"
-rustler_codegen = "0.14.0"
+#rustler = "0.14.0"
+#rustler_codegen = "0.14.0"
+rustler = { path = "../../../../../my_repos/rustler" }
+rustler_codegen = { path = "../../../../../my_repos/rustler/rustler_codegen" }
 lazy_static = "0.2"
